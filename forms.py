@@ -1,6 +1,4 @@
-from flask import Flask, url_for, render_template
 from flask_wtf import FlaskForm
-from werkzeug.utils import redirect
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, URL
 from flask_ckeditor import CKEditorField, CKEditor
