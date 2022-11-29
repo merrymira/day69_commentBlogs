@@ -1,1 +1,1 @@
-web: flask db upgrade; gunicorn tinker:app
+web: gunicorn gettingstarted.wsgi
